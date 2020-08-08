@@ -1,0 +1,54 @@
+@tailwind base;
+
+.markdown {
+    @apply text-gray-700 leading-relaxed text-base break-words;
+}
+
+.markdown > * + * {
+    @apply mt-0 mb-4;
+}
+
+.markdown h2 {
+    @apply text-3xl text-black font-semibold mb-4 mt-8;
+}
+
+.markdown h3 {
+    @apply text-xl text-gray-700 font-bold tracking-wide mb-2;
+}
+
+.markdown h4 {
+    @apply text-base text-gray-500 font-medium uppercase;
+}
+
+.markdown blockquote {
+    @apply border-l-4 border-gray-300 pl-4;
+}
+
+.markdown ul {
+    @apply pl-5 list-disc;
+}
+
+.markdown ol {
+    @apply pl-5 list-decimal;
+}
+
+.markdown li {
+    @apply mb-1;
+}
+
+/* use :not attribute so this doesn't apply to the prism code syntax highlighting */
+.markdown code:not([class]) {
+    @apply font-mono bg-gray-200 rounded-sm p-px
+}
+
+.markdown a {
+    @apply text-teal-500 bg-white
+}
+
+.markdown a:hover {
+    @apply bg-teal-100
+}
+
+@tailwind components;
+
+@tailwind utilities;

@@ -15,10 +15,16 @@ export default class Post extends React.Component<Properties, {}> {
     }
 
     render() {
-        return <div className={`${this.props.post.id}`}>
-            <h1>{this.props.post.title}</h1>
-            <h3>{this.props.post.subtitle}</h3>
-            <p>{new Date(this.props.post.dateTime).toLocaleDateString("en-US")}</p>
+        return <div className={`${this.props.post.id} container mx-auto`}>
+            <h1 className="text-6xl mt-8">
+                {this.props.post.title}
+            </h1>
+            <h3 className="text-2xl text-gray-500 mt-6">
+                {this.props.post.subtitle}
+            </h3>
+            <p className="text-lg text-gray-700 font-semibold mt-2 mb-16">
+                {new Date(this.props.post.dateTime).toLocaleDateString("en-US")}
+            </p>
             <div className="content markdown" dangerouslySetInnerHTML={{__html: this.props.post.content }} />
         </div>
     }

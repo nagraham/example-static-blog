@@ -22,7 +22,7 @@ export default class HomePage extends React.Component<Properties, {}> {
         sortedPostDataList.forEach((post: PostData) => {
             postLinks.push(<div key={post.id} className={`${post.id}`}>
                 <a href={transformLink(`/posts/${post.id}`)}>
-                    <h4>
+                    <h4 className="text-xl text-teal-500 hover:bg-teal-100 hover:text-teal-700 mb-4">
                         {post.title}
                     </h4>
                 </a>
@@ -32,8 +32,8 @@ export default class HomePage extends React.Component<Properties, {}> {
     }
 
     render() {
-        return <div>
-            <h1>Hello, Nextjs!</h1>
+        return <div className="container mx-auto mt-12">
+            <h1 className="text-6xl mb-12">Hello, Nextjs!</h1>
             { this.createPostLinks() }
         </div>
     }
