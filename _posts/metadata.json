@@ -5,14 +5,14 @@
       "title": "A Test Post",
       "subtitle": "A subtitle for a Test Post",
       "dateTime": "2020-08-07T21:23:00.000Z",
-      "contentPath": "TODO"
+      "contentPath": "a_test_post.md"
     },
     {
       "id": "lorem-ipsum",
       "title": "Lorem Ipsum",
       "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget risus accumsan, molestie ligula vel, gravida augue. Nam interdum erat.",
       "dateTime": "2020-08-09T18:53:00.000Z",
-      "contentPath": "TODO"
+      "contentPath": "some_post_file.md"
     }
   ]
 }
