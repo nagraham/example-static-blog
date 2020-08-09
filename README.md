@@ -1,6 +1,6 @@
 # Example Static Blog
 
-This is an example static blog using NextJS, ReactJS, TypeScript, and Tailwind. For more details and walkthrough, check out [this blog post](https://www.alexandergraham.dev/posts/the-habit-every-developer-should-adopt.html).
+This is an example static blog using NextJS, ReactJS, TypeScript, and Tailwind. For more details and walkthrough, check out [this blog post](https://www.alexandergraham.dev/posts/build-a-static-blog.html).
 
 This blog uses the following tools/libraries:
 
