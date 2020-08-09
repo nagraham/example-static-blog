@@ -11,6 +11,7 @@
   "author": "Alex Graham",
   "license": "MIT",
   "devDependencies": {
+    "@mapbox/rehype-prism": "^0.5.0",
     "@types/node": "^14.0.27",
     "@types/react": "^16.9.44",
     "@types/react-dom": "^16.9.8",

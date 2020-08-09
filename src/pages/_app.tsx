@@ -3,6 +3,9 @@ import type { AppProps } from 'next/app';
 // import global styles
 import './app.css';
 
+// import prism theme
+import "prismjs/themes/prism-tomorrow.css";
+
 function MyApp({ Component, pageProps }: AppProps) {
     return <Component {...pageProps} />
 }

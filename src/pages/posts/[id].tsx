@@ -25,7 +25,7 @@ export default class Post extends React.Component<Properties, {}> {
             <p className="text-lg text-gray-700 font-semibold mt-2 mb-16">
                 {new Date(this.props.post.dateTime).toLocaleDateString("en-US")}
             </p>
-            <div className="content markdown" dangerouslySetInnerHTML={{__html: this.props.post.content }} />
+            <div className="content markdown mb-12" dangerouslySetInnerHTML={{__html: this.props.post.content }} />
         </div>
     }
 }
